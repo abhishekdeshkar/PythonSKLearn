@@ -5,8 +5,8 @@ boston = load_boston()
 X = boston.data
 Y = boston.target
 
-# print(X.shape)
-# print(Y.shape)
+print(X.shape)
+print(Y.shape)
 
 #Features Name.
 print(boston.feature_names)
